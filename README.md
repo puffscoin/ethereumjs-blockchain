@@ -19,7 +19,7 @@ This module performs write operations. Making a backup of your data before tryin
 ```javascript
 const level = require('level')
 const Blockchain = require('puffscoinjs-blockchain').default
-const utils = require('ethereumjs-util')
+const utils = require('puffscionjs-util')
 
 const gpuffsDbPath = './chaindata' // Add your own path here. It will get modified, see remarks.
 const db = level(gpuffsDbPath)
