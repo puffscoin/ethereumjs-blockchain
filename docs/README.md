@@ -1,4 +1,4 @@
-# ethereumjs-blockchain
+# puffscionjs-blockchain
 
 ## Index
 
