@@ -1,6 +1,6 @@
 import BN = require('bn.js')
 
-// Geth compatible DB keys
+// gpuffs compatible DB keys
 
 const headsKey = 'heads'
 /**
