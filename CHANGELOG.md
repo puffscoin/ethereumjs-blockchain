@@ -5,6 +5,9 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/)
 (modification: no type change headlines) and this project adheres to
 [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
+## [4.0.0.1] - 2019-05-22
+
+Adjustment to the PUFFScoin blockchain. Changing geth to gpuffs, ethereum to puffscoin.
 
 ## [4.0.0] - 2019-04-26
 
@@ -13,7 +16,7 @@ First **TypeScript** based release of the library. `TypeScript` handles `ES6` tr
 end: cleaner) than `babel` so `require` syntax of the library slightly changes to:
 
 ```javascript
-let Blockchain = require('ethereumjs-blockchain').default
+let Blockchain = require('puffscoinjs-blockchain').default
 ```
 
 The library now also comes with a **type declaration file** distributed along
