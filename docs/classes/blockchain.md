@@ -52,7 +52,7 @@ This class stores and interacts with blocks.
 
 ⊕ **new Blockchain**(opts?: _[BlockchainOptions](../interfaces/blockchainoptions.md)_): [Blockchain](blockchain.md)
 
-_Defined in [index.ts:117](https://github.com/ethereumjs/ethereumjs-blockchain/blob/8190375/src/index.ts#L117)_
+_Defined in [index.ts:117](https://github.com/puffscoin/puffscionjs-blockchain/blob/8190375/src/index.ts#L117)_
 
 Creates new Blockchain object
 
@@ -74,7 +74,7 @@ Creates new Blockchain object
 
 **● db**: _`any`_
 
-_Defined in [index.ts:110](https://github.com/ethereumjs/ethereumjs-blockchain/blob/8190375/src/index.ts#L110)_
+_Defined in [index.ts:110](https://github.com/puffscoin/puffscionjs-blockchain/blob/8190375/src/index.ts#L110)_
 
 ---
 
@@ -84,7 +84,7 @@ _Defined in [index.ts:110](https://github.com/ethereumjs/ethereumjs-blockchain/b
 
 **● dbManager**: _`DBManager`_
 
-_Defined in [index.ts:111](https://github.com/ethereumjs/ethereumjs-blockchain/blob/8190375/src/index.ts#L111)_
+_Defined in [index.ts:111](https://github.com/puffscoin/puffscionjs-blockchain/blob/8190375/src/index.ts#L111)_
 
 ---
 
