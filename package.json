@@ -1,5 +1,5 @@
 {
-  "name": "ethereumjs-blockchain",
+  "name": "puffscionjs-blockchain",
   "version": "4.0.0",
   "description": "A module to store and interact with blocks",
   "main": "dist/index.js",
@@ -9,17 +9,17 @@
   ],
   "scripts": {
     "prepublishOnly": "npm run lint && npm run test && npm run build",
-    "build": "ethereumjs-config-build",
-    "coverage": "ethereumjs-config-coverage",
-    "coveralls": "ethereumjs-config-coveralls",
+    "build": "puffscionjs-config-build",
+    "coverage": "puffscionjs-config-coverage",
+    "coveralls": "puffscionjs-config-coveralls",
     "docs:build": "typedoc --out docs --mode file --readme none --theme markdown --mdEngine github --excludeNotExported --excludePrivate src",
-    "format": "ethereumjs-config-format",
-    "format:fix": "ethereumjs-config-format-fix",
-    "tslint": "ethereumjs-config-tslint",
-    "tslint:fix": "ethereumjs-config-tslint-fix",
-    "tsc": "ethereumjs-config-tsc",
-    "lint": "ethereumjs-config-lint",
-    "lint:fix": "ethereumjs-config-lint-fix",
+    "format": "puffscionjs-config-format",
+    "format:fix": "puffscionjs-config-format-fix",
+    "tslint": "puffscionjs-config-tslint",
+    "tslint:fix": "puffscionjs-config-tslint-fix",
+    "tsc": "puffscionjs-config-tsc",
+    "lint": "puffscionjs-config-lint",
+    "lint:fix": "puffscionjs-config-lint-fix",
     "test": "ts-node node_modules/tape/bin/tape ./test/index.ts"
   },
   "husky": {
@@ -29,7 +29,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ethereumjs/ethereumjs-blockchain.git"
+    "url": "git+https://github.com/puffscoin/puffscionjs-blockchain.git"
   },
   "keywords": [
     "ethereum",
@@ -38,15 +38,15 @@
   "author": "mjbecze <mjbecze@gmail.com>",
   "license": "MPL-2.0",
   "bugs": {
-    "url": "https://github.com/ethereumjs/ethereumjs-blockchain/issues"
+    "url": "https://github.com/puffscoin/puffscionjs-blockchain/issues"
   },
-  "homepage": "https://github.com/ethereumjs/ethereumjs-blockchain#readme",
+  "homepage": "https://github.com/puffscoin/puffscionjs-blockchain#readme",
   "dependencies": {
     "async": "^2.6.1",
     "ethashjs": "~0.0.7",
-    "ethereumjs-block": "~2.2.0",
-    "ethereumjs-common": "^1.1.0",
-    "ethereumjs-util": "~6.1.0",
+    "puffscionjs-block": "~2.2.0",
+    "puffscionjs-common": "^1.1.0",
+    "puffscionjs-util": "~6.1.0",
     "flow-stoplight": "^1.0.0",
     "level-mem": "^3.0.1",
     "lru-cache": "^5.1.1",
@@ -55,10 +55,10 @@
     "util": "^0.12.0"
   },
   "devDependencies": {
-    "@ethereumjs/config-nyc": "^1.1.1",
-    "@ethereumjs/config-prettier": "^1.1.1",
-    "@ethereumjs/config-tsc": "^1.1.1",
-    "@ethereumjs/config-tslint": "^1.1.1",
+    "@puffscionjs/config-nyc": "^1.1.1",
+    "@puffscionjs/config-prettier": "^1.1.1",
+    "@puffscionjs/config-tsc": "^1.1.1",
+    "@puffscionjs/config-tslint": "^1.1.1",
     "@types/async": "^2.4.1",
     "@types/bn.js": "^4.11.4",
     "@types/lru-cache": "^5.1.0",
