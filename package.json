@@ -32,7 +32,7 @@
     "url": "git+https://github.com/puffscoin/puffscionjs-blockchain.git"
   },
   "keywords": [
-    "ethereum",
+    "puffscion",
     "blockchain"
   ],
   "author": "mjbecze <mjbecze@gmail.com>",
