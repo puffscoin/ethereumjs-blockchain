@@ -1,12 +1,12 @@
 import * as async from 'async'
-import Common from 'ethereumjs-common'
-import { rlp, toBuffer } from 'ethereumjs-util'
+import Common from 'puffscionjs-common'
+import { rlp, toBuffer } from 'puffscionjs-util'
 import * as test from 'tape'
 import Blockchain from '../src'
 
 import BN = require('bn.js')
 
-const Block = require('ethereumjs-block')
+const Block = require('puffscionjs-block')
 const level = require('level-mem')
 const testData = require('./testdata.json')
 
