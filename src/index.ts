@@ -539,7 +539,7 @@ export default class Blockchain {
    * Gets a block by its hash.
    *
    * @param blockTag - The block's hash or number
-   * @param cb - The callback. It is given two parameters `err` and the found `block` (an instance of https://github.com/ethereumjs/ethereumjs-block) if any.
+   * @param cb - The callback. It is given two parameters `err` and the found `block` (an instance of https://github.com/puffscoin/puffscoinjs-block) if any.
    */
   getBlock(blockTag: Buffer | number | BN, cb: any) {
     // ensure init completed
