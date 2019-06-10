@@ -164,7 +164,7 @@ Gets a block by its hash.
 | Name     | Type                         | Description                                                                                                                                                                                        |
 | -------- | ---------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | blockTag | `Buffer` \| `number` \| `BN` | The block's hash or number                                                                                                                                                                         |
-| cb       | `any`                        | The callback. It is given two parameters \`err\` and the found \`block\` (an instance of [https://github.com/ethereumjs/ethereumjs-block](https://github.com/puffscoin/puffscionjs-block)) if any. |
+| cb       | `any`                        | The callback. It is given two parameters \`err\` and the found \`block\` (an instance of [https://github.com/puffscoin/puffscoinjs-block](https://github.com/puffscoin/puffscionjs-block)) if any. |
 
 **Returns:** `void`
 
